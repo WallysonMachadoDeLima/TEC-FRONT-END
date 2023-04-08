@@ -42,11 +42,15 @@ export default () => {
         style={{ backgroundColor: "#f2f2f2" }}
       >
         <div className={style.navbar}>
-          <div>
-            <div style={{ position: "absolute" }}>
-              <img src={Logo}></img>
+          {window.innerWidth > 600 ? (
+            <div>
+              <div style={{ position: "absolute", marginTop: "-1.5rem" }}>
+                <img src={Logo}></img>
+              </div>
             </div>
-          </div>
+          ) : (
+            ""
+          )}
           <ul className={style.list}>
             <>
               <li

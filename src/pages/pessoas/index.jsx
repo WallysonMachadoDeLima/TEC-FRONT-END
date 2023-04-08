@@ -1,34 +1,19 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
-import global from "../../styles/globals.module.scss";
 import ContainerTitle from "../../components/container/index";
 import Button from "../../components/button";
-import Input from "../../components/forms/input";
 import Title from "../../components/forms/title";
 import SubTitle from "../../components/forms/titleSub";
 import ContainerForm from "../../components/forms/Form";
-import Select from "../../components/forms/Select";
-import FormGroup from "../../components/forms/FormGroup/index";
 import FormItem from "../../components/forms/FormItem/index";
-import Status from "../../components/forms/status/index";
 import Table from "../../components/forms/table";
 import { BsFillArrowLeftSquareFill, BsUpload } from "react-icons/bs";
 import { CgAddR } from "react-icons/cg";
 import { RiDeleteBin7Fill } from "react-icons/ri";
-import { BsFillEyeFill } from "react-icons/bs";
-import Files from "../../services/file/fileService";
-import integracoesSevice from "../../services/integracoes/integracoesService";
-import alvaraService from "../../services/alvara/alvaraEventoService";
-import alvaraServiceAll from "../../services/alvara/alvaraAll";
-import { User } from "../../global/Variable";
 import ModalGlobal from "../../components/modals/modalText/Modal";
 import Swal from "sweetalert2";
 import { RiPencilFill } from "react-icons/ri";
-import alvaraAll from "../../services/alvara/alvaraAll";
-import TextArea from "../../components/forms/textArea";
 import { ValuesGlobais } from "../../global/Variable";
-
-// NEW
 import * as ValidatorCpf from "gerador-validador-cpf";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -37,7 +22,6 @@ import Form from "react-bootstrap/Form";
 import { Formik } from "formik";
 import * as Yup from "yup";
 import PessoaService from "../../services/pessoa/perfilService";
-// NEW
 
 export default () => {
   const [offSet, setOffSet] = useState(1);
@@ -63,7 +47,6 @@ export default () => {
     },
   });
 
-  // NEW
   const [initialValuesPessoa, setInitialValuesPessoa] = useState({
     nome: "",
     cpf: "",
@@ -117,7 +100,6 @@ export default () => {
     logradouro: Yup.string().required("Logradouro é obrigatório"),
     numero: Yup.string().required("numero é obrigatório"),
   });
-  // NEW
 
   // CONECTION API
   const Deletar = async (e) => {
@@ -182,7 +164,10 @@ export default () => {
           nome: response.data.pessoa?.nome,
           cpf: response.data.pessoa?.cpf,
           email: response.data.pessoa?.email,
-          dataNascimento: response.data.pessoa?.dataNascimento,
+          dataNascimento: response.data.pessoa?.dataNascimento?.substring(
+            0,
+            10
+          ),
           telefone: response.data.pessoa?.telefone,
           nomePai: response.data.pessoa?.nomePai,
           nomeMae: response.data.pessoa?.nomeMae,
@@ -205,30 +190,7 @@ export default () => {
       console.log(response.data);
     });
   }, [search]);
-  /*
-  useEffect(() => {
-    if (trocarView == 1 || editar == true) {
-      if (cep.length == 8) {
-        integracoesSevice
-          .cep(cep)
-          .then((response) => {
-            setBairro(response.data.neighborhood);
-            integracoesSevice.cidade().then((res) => {
-              for (var i in res.data) {
-                if (response.data.city === res.data[i].nome) {
-                  setCidade({ id: res.data[i].id, nome: res.data[i].nome });
-                }
-              }
-            });
-            setLogradouro(response.data.street);
-          })
-          .catch((error) => {
-            Alert.fire({ icon: "error", title: "CEP não encontrado" });
-          });
-      }
-    }
-  }, [cep]);
-*/
+
   return (
     <>
       {action === "list" && (
