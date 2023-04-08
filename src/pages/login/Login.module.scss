@@ -1,0 +1,30 @@
+@import "../../styles/theme.scss";
+@import "/src/styles/breakpoints.scss";
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+
+  @media #{$mobile} {
+    margin-top: 4rem;
+  }
+}
+
+.inputs {
+  margin-top: 2rem;
+
+  @media #{$mobile} {
+    margin-top: 2rem;
+  }
+}
+
+.buttons {
+  margin-top: 2rem;
+
+  @media #{$mobile} {
+    margin-top: 2rem;
+  }
+}

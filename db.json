@@ -1,0 +1,388 @@
+{
+  "login": [
+    {
+      "login": "wallyson",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "login": "machadodelimawallyson@gmail.com",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "login": "jojo",
+      "password": "dafasf",
+      "id": 4
+    },
+    {
+      "login": "jojo",
+      "password": "dafasf",
+      "id": 5
+    },
+    {
+      "login": "jojo",
+      "password": "dafasf",
+      "id": 6
+    },
+    {
+      "id": 7
+    }
+  ],
+  "usuario": [
+    {
+      "nome": "Wallyson Machado",
+      "email": "machado@gmail.com",
+      "senha": "1234",
+      "username": "Wallyson",
+      "profile": "3",
+      "id": 1
+    },
+    {
+      "nome": "Carol Lima",
+      "email": "carol123@gmail.com",
+      "senha": "1234",
+      "username": "Wallyson",
+      "profile": "3",
+      "id": 2
+    },
+    {
+      "nome": "José",
+      "email": "josemartines",
+      "senha": "147",
+      "username": "JOJO",
+      "profile": "2",
+      "id": 3
+    }
+  ],
+  "pf": [
+    {
+      "nome": "João Silva Marelinho",
+      "email": "joao@gmail.com",
+      "telefoneCelular": "993575324",
+      "telefoneComercial": "34256895",
+      "cpf": "05814521279",
+      "rg": "1573553",
+      "orgaoExpedidorRg": "SSP",
+      "estadoExpedidorRg": "RO",
+      "logradouro": "Rua Eucatur",
+      "numero": "3800",
+      "complemento": "Na MErcearia jr",
+      "bairro": "Habitar Brasil",
+      "cep": "76909836",
+      "cidadeIbge": "Jí-Paraná",
+      "id": 1
+    },
+    {
+      "nome": "Wallyson Machado de Lima",
+      "email": "joao@gmail.com",
+      "telefoneCelular": "993575324",
+      "telefoneComercial": "34256895",
+      "cpf": "05814521279",
+      "rg": "1573553",
+      "orgaoExpedidorRg": "SSP",
+      "estadoExpedidorRg": "RO",
+      "logradouro": "Rua Eucatur",
+      "numero": "3800",
+      "complemento": "Na MErcearia jr",
+      "bairro": "Habitar Brasil",
+      "cep": "76909836",
+      "cidadeIbge": "Jí-Paraná",
+      "id": 2
+    }
+  ],
+  "ct": [
+    {
+      "razaoSocial": "Empresa do seu Jorge",
+      "cnpj": "148657246-79",
+      "logradouro": "Ji-Paraná",
+      "numero": "3800",
+      "id": 3
+    },
+    {
+      "nomeFantasia": "Santander",
+      "razaoSocial": "S.A Santander",
+      "email": "santander@gmail.com",
+      "telefoneCelular": "69993575324",
+      "telefoneComercial": "3425-2045",
+      "cnpj": "1478627505-78",
+      "tipoCnpj": "Antigo",
+      "cnaePrincial": "14576528",
+      "funcionamentoHoraAbertura": "08:30",
+      "funcionamentoHoraFechamento": "20:30",
+      "logradouro": "Ji-Paraná",
+      "numero": "3200",
+      "complemento": "AV.Barba",
+      "bairro": "ValParaiso",
+      "cep": "76909-836",
+      "cidadeIbge": "Vilhena",
+      "id": 4
+    }
+  ],
+  "pj": [
+    {
+      "id": 1
+    },
+    {
+      "nomeFantasia": "SUPERMERCADO TAI MAX",
+      "razaoSocial": "A. TOMASI & CIA. LTDA",
+      "email": "contabil@abrcontabilidade.com",
+      "telefoneCelular": "34221368",
+      "telefoneComercial": "34213520",
+      "cnpj": "07554169000132",
+      "cnaePrincial": {
+        "id": "4711302",
+        "secao": "G",
+        "divisao": "47",
+        "grupo": "47.1",
+        "classe": "47.11-3",
+        "subclasse": "4711-3/02",
+        "descricao": "Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - supermercados"
+      },
+      "cnaeSecundario": [
+        {
+          "id": "4782201",
+          "secao": "G",
+          "divisao": "47",
+          "grupo": "47.8",
+          "classe": "47.82-2",
+          "subclasse": "4782-2/01",
+          "descricao": "Comércio varejista de calçados"
+        },
+        {
+          "id": "7312200",
+          "secao": "M",
+          "divisao": "73",
+          "grupo": "73.1",
+          "classe": "73.12-2",
+          "subclasse": "7312-2/00",
+          "descricao": "Agenciamento de espaços para publicidade, exceto em veículos de comunicação"
+        },
+        {
+          "id": "4639701",
+          "secao": "G",
+          "divisao": "46",
+          "grupo": "46.3",
+          "classe": "46.39-7",
+          "subclasse": "4639-7/01",
+          "descricao": "Comércio atacadista de produtos alimentícios em geral"
+        },
+        {
+          "id": "4646001",
+          "secao": "G",
+          "divisao": "46",
+          "grupo": "46.4",
+          "classe": "46.46-0",
+          "subclasse": "4646-0/01",
+          "descricao": "Comércio atacadista de cosméticos e produtos de perfumaria"
+        },
+        {
+          "id": "4781400",
+          "secao": "G",
+          "divisao": "47",
+          "grupo": "47.8",
+          "classe": "47.81-4",
+          "subclasse": "4781-4/00",
+          "descricao": "Comércio varejista de artigos do vestuário e acessórios"
+        },
+        {
+          "id": "4722901",
+          "secao": "G",
+          "divisao": "47",
+          "grupo": "47.2",
+          "classe": "47.22-9",
+          "subclasse": "4722-9/01",
+          "descricao": "Comércio varejista de carnes - açougues"
+        },
+        {
+          "id": "4672900",
+          "secao": "G",
+          "divisao": "46",
+          "grupo": "46.7",
+          "classe": "46.72-9",
+          "subclasse": "4672-9/00",
+          "descricao": "Comércio atacadista de ferragens e ferramentas"
+        },
+        {
+          "id": "1013902",
+          "secao": "C",
+          "divisao": "10",
+          "grupo": "10.1",
+          "classe": "10.13-9",
+          "subclasse": "1013-9/02",
+          "descricao": "Preparação de subprodutos do abate"
+        },
+        {
+          "id": "7729202",
+          "secao": "N",
+          "divisao": "77",
+          "grupo": "77.2",
+          "classe": "77.29-2",
+          "subclasse": "7729-2/02",
+          "descricao": "Aluguel de móveis, utensílios e aparelhos de uso doméstico e pessoal; instrumentos musicais"
+        },
+        {
+          "id": "4649402",
+          "secao": "G",
+          "divisao": "46",
+          "grupo": "46.4",
+          "classe": "46.49-4",
+          "subclasse": "4649-4/02",
+          "descricao": "Comércio atacadista de aparelhos eletrônicos de uso pessoal e doméstico"
+        },
+        {
+          "id": "5620101",
+          "secao": "I",
+          "divisao": "56",
+          "grupo": "56.2",
+          "classe": "56.20-1",
+          "subclasse": "5620-1/01",
+          "descricao": "Fornecimento de alimentos preparados preponderantemente para empresas"
+        },
+        {
+          "id": "4637104",
+          "secao": "G",
+          "divisao": "46",
+          "grupo": "46.3",
+          "classe": "46.37-1",
+          "subclasse": "4637-1/04",
+          "descricao": "Comércio atacadista de pães, bolos, biscoitos e similares"
+        },
+        {
+          "id": "4744099",
+          "secao": "G",
+          "divisao": "47",
+          "grupo": "47.4",
+          "classe": "47.44-0",
+          "subclasse": "4744-0/99",
+          "descricao": "Comércio varejista de materiais de construção em geral"
+        },
+        {
+          "id": "4789002",
+          "secao": "G",
+          "divisao": "47",
+          "grupo": "47.8",
+          "classe": "47.89-0",
+          "subclasse": "4789-0/02",
+          "descricao": "Comércio varejista de plantas e flores naturais"
+        },
+        {
+          "id": "6810202",
+          "secao": "L",
+          "divisao": "68",
+          "grupo": "68.1",
+          "classe": "68.10-2",
+          "subclasse": "6810-2/02",
+          "descricao": "Aluguel de imóveis próprios"
+        },
+        {
+          "id": "4679699",
+          "secao": "G",
+          "divisao": "46",
+          "grupo": "46.7",
+          "classe": "46.79-6",
+          "subclasse": "4679-6/99",
+          "descricao": "Comércio atacadista de materiais de construção em geral"
+        },
+        {
+          "id": "4771704",
+          "secao": "G",
+          "divisao": "47",
+          "grupo": "47.7",
+          "classe": "47.71-7",
+          "subclasse": "4771-7/04",
+          "descricao": "Comércio varejista de medicamentos veterinários"
+        },
+        {
+          "id": "5611203",
+          "secao": "I",
+          "divisao": "56",
+          "grupo": "56.1",
+          "classe": "56.11-2",
+          "subclasse": "5611-2/03",
+          "descricao": "Lanchonetes, casas de chá, de sucos e similares"
+        },
+        {
+          "id": "1013901",
+          "secao": "C",
+          "divisao": "10",
+          "grupo": "10.1",
+          "classe": "10.13-9",
+          "subclasse": "1013-9/01",
+          "descricao": "Fabricação de produtos de carne"
+        },
+        {
+          "id": "4649408",
+          "secao": "G",
+          "divisao": "46",
+          "grupo": "46.4",
+          "classe": "46.49-4",
+          "subclasse": "4649-4/08",
+          "descricao": "Comércio atacadista de produtos de higiene, limpeza e conservação domiciliar"
+        },
+        {
+          "id": "4721102",
+          "secao": "G",
+          "divisao": "47",
+          "grupo": "47.2",
+          "classe": "47.21-1",
+          "subclasse": "4721-1/02",
+          "descricao": "Padaria e confeitaria com predominância de revenda"
+        },
+        {
+          "id": "4649401",
+          "secao": "G",
+          "divisao": "46",
+          "grupo": "46.4",
+          "classe": "46.49-4",
+          "subclasse": "4649-4/01",
+          "descricao": "Comércio atacadista de equipamentos elétricos de uso pessoal e doméstico"
+        },
+        {
+          "id": "5611201",
+          "secao": "I",
+          "divisao": "56",
+          "grupo": "56.1",
+          "classe": "56.11-2",
+          "subclasse": "5611-2/01",
+          "descricao": "Restaurantes e similares"
+        },
+        {
+          "id": "4642701",
+          "secao": "G",
+          "divisao": "46",
+          "grupo": "46.4",
+          "classe": "46.42-7",
+          "subclasse": "4642-7/01",
+          "descricao": "Comércio atacadista de artigos do vestuário e acessórios, exceto profissionais e de segurança"
+        },
+        {
+          "id": "4930202",
+          "secao": "H",
+          "divisao": "49",
+          "grupo": "49.3",
+          "classe": "49.30-2",
+          "subclasse": "4930-2/02",
+          "descricao": "Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional"
+        }
+      ],
+      "logradouro": "MARECHAL RONDON",
+      "numero": "3017",
+      "complemento": null,
+      "bairro": "DOIS DE ABRIL",
+      "cep": "76900877",
+      "cidadeIbge": "Ji-Paraná",
+      "id": 2
+    }
+  ],
+  "alvara": [
+    {
+      "nome": "Festa 2",
+      "cidade": "Vilhena",
+      "socilicacao": "26/01/2023",
+      "validade": "26/02/2023",
+      "status": "Pendente",
+      "id": 1
+    }
+  ]
+}

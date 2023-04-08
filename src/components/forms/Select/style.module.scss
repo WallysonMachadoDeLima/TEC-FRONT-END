@@ -1,0 +1,25 @@
+@import "../../../styles/theme.scss";
+
+.select {
+  width: 100%;
+  border: solid $primary;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  background-color: $secondary;
+
+  border-top: 0ch;
+  border-left: 0ch;
+  border-right: 0ch;
+
+  &:hover {
+    &:hover {
+      background-color: $white;
+      border-color: $primary;
+    }
+  }
+}
+
+.increase {
+  width: 300px;
+}

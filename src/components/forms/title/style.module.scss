@@ -1,0 +1,36 @@
+@import "../../../styles/theme.scss";
+@import "/src/styles/breakpoints.scss";
+
+.title {
+  text-align: left;
+  position: relative;
+  font-family: $fontFamily;
+  font-size: $fontSizeTitle;
+
+  font-weight: 800;
+  padding: 4px;
+
+  p {
+    text-transform: uppercase;
+    display: inline;
+    color: $primary;
+
+    svg {
+      color: $primary;
+      cursor: pointer;
+      transform: scale(1.3);
+      transition: 0.25s ease-in-out;
+
+      &:hover {
+        color: rgba($primary, 0.8);
+        transform: scale(1.5);
+      }
+    }
+  }
+
+  @media #{$mobile} {
+
+    font-size: $fontSizeTitleMobile;
+  }
+
+}

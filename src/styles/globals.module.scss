@@ -1,0 +1,111 @@
+@import "./theme.scss";
+
+* {
+  margin: 0px;
+}
+
+.body {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.body2 {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  height: 140vh;
+  width: 100%;
+}
+
+.bodyPainel {
+  position: absolute;
+  background-image: url("../images/background.png");
+  background-size: cover;
+  height: 93vh;
+  width: 100%;
+
+}
+
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.despacho {
+
+  width: 100%;
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.right {
+  margin-top: 30px;
+  margin: 10px;
+  text-align: center;
+}
+
+.top {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.centro {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.full {
+  width: 100%;
+}
+
+.half {
+  width: 50%;
+}
+
+.small {
+  padding: 0.5rem;
+}
+
+.ml {
+  margin-left: 0.5rem;
+}
+
+.mr {
+  margin-right: 0.5rem;
+}
+
+.mb {
+  margin-bottom: 0.5rem;
+}
+
+.right {
+  margin-top: 30px;
+  margin: 10px;
+  text-align: right;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+
+.espaco {
+  margin-bottom: 1rem;
+}
+
+.img {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  opacity: 0.4;
+}

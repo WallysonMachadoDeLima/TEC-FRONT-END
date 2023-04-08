@@ -1,0 +1,34 @@
+@import "../../../styles/theme.scss";
+
+.primary {
+
+  flex-grow: 1;
+  padding: 0.7rem;
+
+
+  p {
+    text-transform: uppercase;
+    display: inline;
+    color: $primary;
+
+    svg {
+
+      font-size: $fontSizeTitle;
+      color: $primary;
+      cursor: pointer;
+      transform: scale(1.3);
+      transition: 0.25s ease-in-out;
+
+      &:hover {
+        color: rgba($primary, 0.8);
+        transform: scale(1.5);
+      }
+    }
+  }
+}
+
+.center {
+
+  display: flex;
+  align-items: center;
+}

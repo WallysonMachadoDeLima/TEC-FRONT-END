@@ -1,0 +1,10 @@
+@import "../../../styles/theme.scss";
+
+.label {
+  position: absolute;
+  color: #000;
+  font-family: $fontFamily;
+  font-size: 12px;
+  margin-bottom: 0.3rem;
+  bottom: 33%;
+}

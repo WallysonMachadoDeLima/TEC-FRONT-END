@@ -1,0 +1,48 @@
+@import "../../../styles/theme.scss";
+
+.status {
+
+    font-weight: 700;
+    border-radius: 8px;
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+
+}
+
+.pendente {
+    color: #ff9933;
+}
+
+.analize {
+    color: #fad000;
+}
+
+.devolvido {
+    color: #ccac93;
+}
+
+.despacho {
+
+    color: #ccac93;
+}
+
+.pagamento {
+    color: #299438;
+}
+
+.liberado {
+    color: #00ba73;
+}
+
+.cancelado {
+    color: #db4035;
+}
+
+.suspenso {
+    color: #bb2570;
+}
+
+.inativo {
+    color: #808080;
+}

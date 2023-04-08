@@ -1,0 +1,49 @@
+@import '../../styles/breakpoints.scss';
+
+.center * {
+  transform: translate(-0%, 10%);
+  top: 2vh;
+  margin-bottom: 0.8rem;
+
+  @media #{$mobile} {
+    top: 5vh;
+  }
+}
+
+.centerOption {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 38px;
+  text-align: center;
+}
+
+.text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: Regular;
+  font-size: 19px;
+  line-height: 45px;
+  line-height: 100%;
+  text-align: justify;
+  vertical-align: Center;
+}
+
+.buttons {
+  margin: 5vh 0;
+
+  @media #{$mobile} {
+    margin: 10vh 0;
+  }
+
+}

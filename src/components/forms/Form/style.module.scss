@@ -1,0 +1,85 @@
+@import "../../../styles/theme.scss";
+
+.form {
+  display: block;
+  height: auto;
+  background-color: #fafafa;
+  margin: 15px;
+  padding: 12.5px;
+  padding-left: 10px;
+  border-top-width: 10px;
+  border: solid $primary;
+  border-radius: 10px;
+  border-left: 0ch;
+  border-right: 0ch;
+  border-bottom: 0ch;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(184, 175, 184, 1);
+  -moz-box-shadow: 0px 3px 5px 2px rgba(184, 175, 184, 1);
+  box-shadow: 1px 3px 5px 2px rgba(184, 175, 184, 1);
+
+  .right {
+    margin-top: 30px;
+    margin: 10px;
+    text-align: center;
+  }
+}
+
+.small {
+  display: block;
+  height: auto;
+  background-color: #fafafa;
+  margin: 15px;
+  padding-left: 10px;
+  border-top-width: 10px;
+  border: solid $primary;
+  border-radius: 10px;
+  border-left: 0ch;
+  border-right: 0ch;
+  border-bottom: 0ch;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(184, 175, 184, 1);
+  -moz-box-shadow: 0px 3px 5px 2px rgba(184, 175, 184, 1);
+  box-shadow: 1px 3px 5px 2px rgba(184, 175, 184, 1);
+
+  .right {
+    margin-top: 30px;
+    margin: 10px;
+    text-align: center;
+  }
+}
+
+.center {
+  display: block;
+  width: 1020px;
+  height: auto;
+  background-color: rgba(#fafafa, 0.9);
+  margin: 15px;
+  padding: 15px;
+  padding-left: 10px;
+
+  border-top-width: 10px;
+  border: solid $primary;
+  border-radius: 10px;
+  border-left: 0ch;
+  border-right: 0ch;
+  border-bottom: 0ch;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(184, 175, 184, 1);
+  -moz-box-shadow: 0px 3px 5px 2px rgba(184, 175, 184, 1);
+  box-shadow: 1px 3px 5px 2px rgba(184, 175, 184, 1);
+
+  .right {
+    margin-top: 30px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: #ecf0f5;
+}

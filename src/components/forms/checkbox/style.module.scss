@@ -1,0 +1,35 @@
+@import "../../../styles/theme.scss";
+
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hiddenCheckbox {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  display: none;
+  position: relative;
+  left: 1rem;
+}
+
+.text {
+  padding-left: 0.3rem;
+  font-size: 18px;
+  font-family: $fontFamily;
+  color: $primary;
+  cursor: pointer;
+
+  label {
+    color: #000;
+  }
+}
+
+.styledCheckbox {
+  cursor: pointer;
+}
